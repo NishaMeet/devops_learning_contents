@@ -1,0 +1,27 @@
+1) create VPC
+2) Create subnet
+3) create internet gateway
+4) create route table
+5) add routes
+6) add subnet association
+7) enable auto-assign ip for public subnet
+8) create ec2 in private subnet
+9) create ec2 in public subnet
+10) create new security group for private 
+11) attach the new security group to private ec2
+12) create nat instance
+13) using marketplace ami
+14) use new vpc and public subnet
+15) use security group WEBDMZ
+16) disable source and destinaton checks on NAT instance
+17) add route to main route table:
+        0.0.0.0/0  ---- NAT Instance
+18) Done
+
+
+
+19) terminate NAT Instance
+20) Create NAT Gatway using public subnet
+21) add route to main route table:
+        0.0.0.0/0  ---- NAT Gatway
+22) Done
